@@ -20,7 +20,7 @@ Usage:
     environment:
       AUTHORIZED_GH_USERS: barrerajl,barrerajl,barrerajl #github users to authorize comma separated a,b,c
     volumes:
-      - './platform:/home/developer/app' #map actual directory outside for keeping the code
+      - './rails_app:/home/developer/app' #map actual directory outside for keeping the code
       - 'vim_sessions:/home/developer/.homesick/repos/vim-dot-files/home/.vim/sessions'
 
 volumes:
